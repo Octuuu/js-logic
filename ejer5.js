@@ -16,7 +16,7 @@ function gemelosPrimos(N){
     return primosGemelos;
 }
 
-console.log(gemelosPrimos(50)); // [ [2, 4], [3, 5], [5, 7], [11, 13], [17, 19], [29, 31] ]
+console.log(gemelosPrimos(50));
 
 
 
