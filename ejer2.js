@@ -13,7 +13,7 @@ function repeticion(arr){
 }
 
 console.log(repeticion([1, 3, 2, 3, 3, 1, 5, 1, 3])); 
-console.log(repeticion([7, 8, 9, 7, 8, 8, 7, 7])); // { elemento: 7, repeticiones: 4 }
+console.log(repeticion([7, 8, 9, 7, 8, 8, 7, 7]));
 
 
 /*
