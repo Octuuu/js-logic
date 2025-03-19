@@ -14,3 +14,9 @@ function elementoMasFrecuente(arr) {
 }
 
 console.log(elementoMasFrecuente([3, 5, 3, 2, 5, 5, 7])); // 5
+
+
+/*
+8️⃣ Encontrar el elemento más frecuente
+📌 Descripción: Dado un array, encontrar el número que más veces aparece.
+*/
