@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sistema de Gestión Escolar</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <h1>Sistema de Gestión Escolar</h1>
+
+  <section>
+    <h2>Registrar Alumno</h2>
+    <form id="form-alumno">
+      <input type="text" placeholder="Nombre" id="nombre-alumno" required />
+      <input type="text" placeholder="Apellido" id="apellido-alumno" required />
+      <input type="text" placeholder="DNI" id="dni-alumno" required />
+      <button type="submit">Agregar</button>
+    </form>
+  </section>
+
+  <section>
+    <h2>Lista de Alumnos</h2>
+    <ul id="lista-alumnos"></ul>
+  </section>
+
+  <script type="module" src="script.js"></script>
+</body>
+</html>
