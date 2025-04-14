@@ -1,3 +1,4 @@
+
 function caractersMax(s) {
     let set = new Set();
     let maxLength = 0, izquierda = 0;

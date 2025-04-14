@@ -1,3 +1,4 @@
+
 function repeticion(arr){
     let frecuencia = {};
     let maxNum = arr[0]; maxF = 0;
@@ -13,7 +14,6 @@ function repeticion(arr){
 }
 
 console.log(repeticion([2,3,4,5,3,3]));
-
 
 /*
 2️⃣ Encontrar el Elemento que Más Se Repite en un Array
